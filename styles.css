@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+}
+#blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog-post {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
